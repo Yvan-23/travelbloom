@@ -1,0 +1,25 @@
+{
+  "countries": [
+    { "id": 1, "name": "Australia", "cities": [
+      { "name": "Sydney, Australia", "imageUrl": "Syden.jpeg", "description": "A vibrant harbour city famous for its Opera House and Harbour Bridge." },
+      { "name": "Melbourne, Australia", "imageUrl": "Melbourne.jpeg", "description": "A cultural hub known for its arts, coffee, and street laneways." } ] },
+    { "id": 2, "name": "Japan", "cities": [
+      { "name": "Tokyo, Japan", "imageUrl": "Tokyo.jpeg", "description": "A bustling metropolis blending modern skyscrapers with traditional temples." },
+      { "name": "Kyoto, Japan", "imageUrl": "Kyoto.jpeg", "description": "Famous for classical temples, gardens, and traditional wooden houses." } ] },
+    { "id": 3, "name": "Brazil", "cities": [
+      { "name": "Rio de Janeiro, Brazil", "imageUrl": "Rio.jpeg", "description": "Known for its beaches, Carnival, and Christ the Redeemer statue." },
+      { "name": "São Paulo, Brazil", "imageUrl": "Sao paulo.jpeg", "description": "A huge city with world-class food, museums, and nightlife." } ] }
+      
+  ],
+  
+  "temples": [
+    { "id": 1, "name": "Angkor Wat, Cambodia", "imageUrl": "gh.jpeg", "description": "A massive 12th-century temple complex and UNESCO World Heritage Site." },
+    { "id": 2, "name": "Taj Mahal, India", "imageUrl": "taj.jpeg", "description": "An iconic white marble mausoleum, a symbol of eternal love." },
+    { "id": 3, "name": "Wat Arun, Thailand", "imageUrl": "thai.jpeg", "description": "The Temple of Dawn, standing proudly on the Chao Phraya River." }
+  ],
+  "beaches": [
+    { "id": 1, "name": "Bora Bora, French Polynesia", "imageUrl": "bora.jpeg", "description": "Turquoise lagoons and overwater bungalows in a tropical paradise." },
+    { "id": 2, "name": "Copacabana Beach, Brazil", "imageUrl": "copa.jpeg", "description": "A lively beach with golden sand, music, and sports." },
+    { "id": 3, "name": "Maldives Beaches", "imageUrl": "mal.jpeg", "description": "White sand and crystal-clear water across stunning coral islands." }
+  ]
+}
