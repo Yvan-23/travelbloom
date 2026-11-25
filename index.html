@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TravelBloom - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="brand">TravelBloom</div>
+    <ul class="links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Search beach, country..." />
+      <button id="searchBtn">Search</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+  </nav>
+
+  <header class="hero" id="hero">
+    <div class="hero-text">
+      <h1>Let Your Journey Bloom</h1>
+      <p>TravelBloom helps you discover stunning beaches and unforgettable countries. Use the search bar above to explore recommendations tailored to your next adventure.</p>
+      <a class="cta" href="about.html">Learn More</a>
+    </div>
+  </header>
+
+  <section class="hints" id="hints">
+    <h2>Try searching for</h2>
+    <div class="chips">
+      <button class="chip" data-search="beach">Beach</button>
+      <button class="chip" data-search="country">Country</button>
+      <button class="chip" data-search="Japan">Japan</button>
+      <button class="chip" data-search="Brazil">Brazil</button>
+      <button class="chip" data-search="Australia">Australia</button>
+      
+    </div>
+    <p class="hint-list">
+      <strong>Beaches:</strong> Bora Bora, Copacabana, Maldives<br />
+      <strong>Cities:</strong> Sydney, Melbourne, Tokyo, Kyoto, Rio de Janeiro, São Paulo, Kigali
+    </p>
+  </section>
+
+  <main>
+    <section id="results" class="results"></section>
+  </main>
+
+  <footer>&copy; 2026 TravelBloom. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
